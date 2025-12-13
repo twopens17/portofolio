@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Saya</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Portofolio.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#hero">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Kemampuan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Pengalaman</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-up">
+                    <div class="hero-content">
+                        <span class="badge-custom mb-3">Welcome to my world</span>
+                        <h1 class="display-4 fw-bold mb-4">Hai, Saya Dandi <span class="text-gradient">Developer
+                                Website</span>
+                        </h1>
+                        <p class="lead text-secondary mb-5">Menciptakan pengalaman digital yang luar biasa dengan desain
+                            modern dan performa tinggi.</p>
+                        <div class="d-flex gap-3">
+                            <a href="#contact" class="btn btn-primary custom-btn">Hubungi Saya</a>
+                            <a href="#about" class="btn btn-outline-light custom-btn">Lihat Profil</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 text-center mb-5 mb-lg-0" data-aos="zoom-in">
+                    <div class="hero-image-wrapper">
+                        <!-- Placeholder for user photo -->
+                        <div class="hero-image-placeholder">
+                            <i class="display-1"><img src="image/image.png" alt=""></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Background Glows -->
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center" data-aos="fade-up">
+                    <span class="badge-custom mb-3">Tentang Saya</span>
+                    <h2 class="display-6 fw-bold mb-4">Siapa Saya?</h2>
+                    <p class="lead text-secondary">
+                        Saya adalah seorang pengembang web yang bersemangat dengan fokus pada menciptakan antarmuka yang
+                        bersih, elegan, dan fungsional.
+                        Dengan latar belakang di bidang teknik informatika, saya terus mengeksplorasi teknologi baru
+                        untuk menghadirkan solusi terbaik.
+                    </p>
+                    <p class="text-secondary">
+                        Saya percaya bahwa desain yang baik tidak hanya tentang bagaimana sesuatu terlihat, tetapi
+                        bagaimana ia bekerja.
+                        Setiap baris kode yang saya tulis bertujuan untuk memecahkan masalah dan memberikan nilai
+                        tambah.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="position-relative">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center" data-aos="fade-up">
+                    <span class="badge-custom mb-3">Keahlian</span>
+                    <h2 class="display-6 fw-bold">Kemampuan Teknis</h2>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Skill Card 1 -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="glass-card h-100 p-4">
+                        <div class="icon-wrapper mb-4">
+                            <i class="bi bi-code-slash fs-1 text-primary"></i>
+                        </div>
+                        <h4 class="mb-3">Frontend Development</h4>
+                        <p class="text-secondary mb-0">Ahli dalam HTML5, CSS3, dan JavaScript modern. Berpengalaman
+                            dengan framework seperti Bootstrap, React, dan Vue.js.</p>
+                    </div>
+                </div>
+
+                <!-- Skill Card 2 -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="glass-card h-100 p-4">
+                        <div class="icon-wrapper mb-4">
+                            <i class="bi bi-gear-fill fs-1 text-primary"></i>
+                        </div>
+                        <h4 class="mb-3">Backend & Database</h4>
+                        <p class="text-secondary mb-0">Memahami konsep backend dengan PHP dan database seperti MySQL.
+                            Mampu membuat API yang aman dan efisien.</p>
+                    </div>
+                </div>
+
+                <!-- Skill Card 3 -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="glass-card h-100 p-4">
+                        <div class="icon-wrapper mb-4">
+                            <i class="bi bi-palette-fill fs-1 text-primary"></i>
+                        </div>
+                        <h4 class="mb-3">UI/UX Design</h4>
+                        <p class="text-secondary mb-0">Mendesain antarmuka yang user-friendly dengan perhatian pada
+                            detail visual dan pengalaman pengguna.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section (Timeline) -->
+    <section id="experience">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center" data-aos="fade-up">
+                    <span class="badge-custom mb-3">Perjalanan Karir</span>
+                    <h2 class="display-6 fw-bold">Pengalaman Saya</h2>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="timeline">
+                        <!-- Item 1 -->
+                        <div class="timeline-item" data-aos="fade-left">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content glass-card p-4">
+                                <span class="text-secondary small">2023 - Sekarang</span>
+                                <h5 class="fw-bold mt-2">Freelance Web Developer</h5>
+                                <p class="text-secondary mb-0">Mengerjakan berbagai proyek pembuatan website untuk klien
+                                    UMKM dan personal branding.</p>
+                            </div>
+                        </div>
+
+                        <!-- Item 2 -->
+                        <div class="timeline-item" data-aos="fade-left" data-aos-delay="100">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content glass-card p-4">
+                                <span class="text-secondary small">2022 - 2023</span>
+                                <h5 class="fw-bold mt-2">Internship Fullstack Dev</h5>
+                                <p class="text-secondary mb-0">Magang di perusahaan teknologi, belajar tentang siklus
+                                    pengembangan software dan kolaborasi tim.</p>
+                            </div>
+                        </div>
+
+                        <!-- Item 3 -->
+                        <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content glass-card p-4">
+                                <span class="text-secondary small">2021 - 2022</span>
+                                <h5 class="fw-bold mt-2">Junior Web Designer</h5>
+                                <p class="text-secondary mb-0">Bekerja paruh waktu sebagai desainer web, fokus pada
+                                    layout dan responsivitas website.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8" data-aos="fade-up">
+                    <div class="glass-card p-5 text-center">
+                        <span class="badge-custom mb-3">Hubungi Saya</span>
+                        <h2 class="display-6 fw-bold mb-4">Mari Bekerja Sama</h2>
+                        <p class="text-secondary mb-5">Tertarik untuk membuat proyek bersama? Jangan ragu untuk
+                            menghubungi saya melalui media sosial atau email.</p>
+
+                        <div class="d-flex justify-content-center gap-4 flex-wrap">
+                            <a href="#" class="btn btn-outline-light d-flex align-items-center gap-2 custom-btn">
+                                <i class="bi bi-envelope"></i> Email
+                            </a>
+                            <a href="#" class="btn btn-outline-light d-flex align-items-center gap-2 custom-btn">
+                                <i class="bi bi-linkedin"></i> LinkedIn
+                            </a>
+                            <a href="#" class="btn btn-outline-light d-flex align-items-center gap-2 custom-btn">
+                                <i class="bi bi-github"></i> GitHub
+                            </a>
+                            <a href="#" class="btn btn-outline-light d-flex align-items-center gap-2 custom-btn">
+                                <i class="bi bi-instagram"></i> Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Basic Footer for structure -->
+    <footer class="py-4 text-center text-secondary border-top border-secondary border-opacity-10 mt-5">
+        <small>&copy; 2025 Portofolio Saya. All rights reserved.</small>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
